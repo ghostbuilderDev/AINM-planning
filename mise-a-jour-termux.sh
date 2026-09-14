@@ -13,7 +13,7 @@ if [ ! -d .git ]; then
   exit 1
 fi
 
-git add index.html README.md mise-a-jour-termux.sh
+git add index.html README.md VERSION mise-a-jour-termux.sh
 
 if git diff --cached --quiet; then
   echo "Aucune modification à envoyer."

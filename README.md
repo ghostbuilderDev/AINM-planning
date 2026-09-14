@@ -1,6 +1,10 @@
-# AINM Planning unifié
+# AINM Planning unifié — BÊTA
 
-Version bêta réunissant les modules **Pilotage ferroviaire** et **Planning des équipes** dans un seul fichier HTML autonome.
+Application web de planification et de pilotage des travaux ferroviaires AINM.
+
+Cette version bêta réunit les modules **Pilotage ferroviaire** et **Planning des équipes** dans un seul fichier HTML autonome. Elle regroupe la préparation des opérations, la gestion des équipes et des moyens, les séances et emprises, les accès, les alertes ainsi que les vues destinées à la préparation terrain.
+
+Le projet est actuellement en phase de développement. Le planning produit constitue une aide à la préparation et ne remplace aucune autorisation de travaux, consignation, protection ou procédure de remise en circulation.
 
 ## Utilisation
 
@@ -14,8 +18,8 @@ Première installation :
 pkg update -y
 pkg install git -y
 termux-setup-storage
-git clone URL_DU_DEPOT_GITHUB
-cd ainm-planning-beta
+git clone https://github.com/ghostbuilderDev/AINM-planning.git
+cd AINM-planning
 ```
 
 Après chaque nouvelle version copiée dans le dossier du dépôt :
@@ -25,6 +29,8 @@ bash mise-a-jour-termux.sh "Description de la mise à jour"
 ```
 
 Sans description, le script crée automatiquement un message avec la date et l’heure.
+
+Adresse du dépôt : `https://github.com/ghostbuilderDev/AINM-planning`
 
 ## Version
 
